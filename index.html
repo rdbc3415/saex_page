@@ -4,16 +4,14 @@
     <title>Mi Página Web</title>
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Esta es una página web básica alojada en un servidor gratuito.</p>
-
-    <button id="myButton">Haz clic</button>
+    <h1>Mi Contenido</h1>
+    <button onclick="cerrarVentana()">Cerrar WebView</button>
 
     <script>
-        // Tu código JavaScript aquí
-        document.getElementById("myButton").addEventListener("click", function() {
-            alert("¡Hiciste clic en el botón!");
-        });
+        function cerrarVentana() {
+            // Cierra la ventana actual
+            window.close();
+        }
     </script>
 </body>
 </html>
